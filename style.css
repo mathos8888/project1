@@ -1,0 +1,41 @@
+*{
+	padding:0;
+	margin:0;
+}
+#wrapper{
+	width:1200px;
+	height:500px;
+	margin:20px auto;
+	position:relative;
+}
+#div1{
+	width:100%;
+	height:400px;
+	margin-bottom:33px;
+	background-image:url(images/reload.gif);
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	position:relative;
+}
+#footer{
+	width:100%;
+	height:67px;
+}
+#footer a{
+	margin-right:-4px;
+}
+.active{
+	opacity:0.5;
+}
+#left_arrow{
+	position:absolute;
+	left:0;
+	top:50%;
+
+}
+#right_arrow{
+	position:absolute;
+	right:0;
+	top:50%;
+
+}
